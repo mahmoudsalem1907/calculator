@@ -17,6 +17,7 @@ class CalculateButton extends StatelessWidget {
           child: ElevatedButton(onPressed: ()=>{
             onClick(num)
           },
+              // new for git test
               child: Text(num,
                 style: TextStyle(fontSize: 28,
                     color: Colors.black,

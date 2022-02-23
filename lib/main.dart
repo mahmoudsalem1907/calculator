@@ -1,5 +1,6 @@
 //import 'package:calculator/extext.dart';
 import 'package:calculator/CalculateWidget.dart';
+import 'package:calculator/loginscreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,8 @@ class MyNewApp extends StatelessWidget{
           centerTitle: true,
           title: Text('Calaculator'),
         ),
-        body: CalculatorWidget(),
+        // body: CalculatorWidget(),
+        body: LoginScreen(),
       ),
     );
   }
